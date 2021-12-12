@@ -1,0 +1,11 @@
+.contact-bg{
+    /* background-image: url(https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29udGFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); */
+    background-color: rgb(33, 49, 62);
+}
+form input, textarea{
+    width: 100%;
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}

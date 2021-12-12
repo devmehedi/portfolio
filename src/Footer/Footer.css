@@ -1,0 +1,33 @@
+.footer{
+    color: #636e72;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    list-style: none;
+}
+.social-icon{
+    color: yellow;
+    font-size: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    color: mediumaquamarine;
+    transition: 0.5s;
+}
+
+@media (max-width:700px) {
+    .footer{
+        display: block;
+    }
+    .foot{
+        margin: 20px;
+    }
+    .social-icon{
+        font-size: 30px;
+    }
+}
